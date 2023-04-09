@@ -1,0 +1,1521 @@
+/* app.css ctrl + shift + R*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+   font-family: "edwardian-script";
+   src: url("/php_store/src/edwardian/edwardian-script.otf") format("opentype");
+}
+
+/* Body */
+body {
+    margin-top: 100px;
+    background-image: url(/php_store/public/assets/css/images/back6.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+.show {
+    display: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.btn-luciana{
+    background-color: brown;
+    color: white;
+}
+
+.alert-violeta {
+    background-color: rgb(130, 123, 175);
+    color: black;
+}
+
+.premio_ID {
+    min-width: 270px;
+    min-height: 220px;
+    max-width: 270px;
+    max-height: 220px;
+}
+
+
+/*///////////////////*/
+/* Cestas LOJA */
+
+.btn-cestas {
+    background-image: url(/php_store/public/assets/css/images/th.jpg);
+    color: black;
+}
+
+.tam_cesta {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.tam_cesta_center {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.cesta_img_1 {
+    position: absolute;
+    left: 93vh;
+    top: 4vw;
+}
+
+.cesta_img_2 {
+    position: absolute;
+    left: 63vh;
+    top: 8vw;
+}
+
+.cesta_img_3 {
+    position: absolute;
+    left: 43vh;
+    top: 19vw;
+}
+
+.cesta_img_4 {
+    position: absolute;
+    left: 123vh;
+    top: 8vw;
+}
+
+.cesta_img_5 {
+    position: absolute;
+    left: 143vh;
+    top: 19vw;
+}
+
+.cesta_img_center {
+    position: absolute;
+    left: 88vh;
+    top: 15vw;
+    opacity: 50%;
+    animation: promo_efect 1s 1s infinite;
+}
+
+.text_cestas {
+    position: absolute;
+    left: 60vh;
+    top: 0vw;
+    font-size: 50pt;
+    text-shadow: 0px 1px 10px black;
+}
+
+
+
+/* ///////////////////////cestas loja///////////////////////// */
+
+/*Config e header*/
+.tam_status {
+    position: relative;
+    width: 100px;
+    left: -70px;
+    top: 0px;
+    opacity: 80%;
+    border-radius: 50%;
+}
+
+.navegacao {
+    background-color: black;
+    color: black;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.espaco_fundo {
+    margin-bottom: 80px;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.textos a {
+    text-decoration: none;
+}
+
+.position_table {
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.letra {
+    font-style: oblique;
+}
+
+.gold_text {
+    color: white;
+    text-shadow: 0px 2px 40px black;
+}
+
+
+/*Config e header*/
+
+/*//////////////////LOJA//////////////*/
+
+.box-produto {
+    border: 3px double white;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.box-premio {
+    border: 3px double goldenrod;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+.produto_nome {
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    font-size: 15pt;
+    position: relative;
+}
+
+.produto_preco {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
+
+.produto_descricao {
+    color: white;
+    text-shadow: 0px 2px 2px black;
+}
+
+.produto_pontos {
+    color: goldenrod;
+    text-shadow: 2px 2px 20px black;
+}
+
+.produto_imag {
+    min-width: 50px;
+    min-height: 200px;
+    max-width: 100px;
+    max-height: 200px;
+}
+
+.produto_imag_det {
+    margin-top: 50px;
+    padding: 0px;
+    min-width: 100px;
+    min-height: 300px;
+    max-width: 150px;
+    max-height: 350px;
+}
+
+
+.premio_imag {
+    min-width: 250px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.premio_imag_detalhe {
+    min-width: 250px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 200px;
+    position: relative;
+    top: 90px;
+}
+
+/*/////////loja////////*/
+
+/*/////////MENU PERFIL////////////*/
+
+.panel_intereses {
+    position: relative;
+    background-image: url(/php_store/public/assets/css/images/backlog.jpg);
+    border: 2px outset goldenrod;
+    left: 12px;
+    top: 0px;
+    opacity: 50%;
+    animation: promo_efect 1s 1s infinite;
+}
+
+@keyframes promo_efect {
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 50%;
+    }
+}
+
+.animated_number {
+    font: 800 40px system-ui;
+}
+
+.texto_pontos {
+    color: goldenrod;
+    text-shadow: 0px 2px 2px black;
+}
+
+.titulos {
+    font-size: 35pt;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 2px 2px 40px black;
+}
+
+.titulo_header {
+    font-size: 35pt;
+    font-family: "edwardian-script", Dancing Script;
+    color: goldenrod;
+    text-shadow: 2px 2px 40px gold;
+
+}
+
+/*/////////MENU PERFIL////////////*/
+
+/*/////////////ADMIN///////////////*/
+.opc_admin {
+    background-image: url(/php_store/public/assets/css/images/back_menu.jpg);
+    text-align: center;
+    border-radius: 10%;
+}
+
+.opc_admin:hover {
+    text-shadow: 2px 2px 20px white;
+}
+
+/*/////////////ADMIN///////////////*/
+
+
+.ex_imag {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+
+img {
+    filter: brightness(1.2) saturate(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    filter: brightness(1.4) saturate(1.4);
+}
+
+
+
+
+/*////////////////INICIO////////////////////////*/
+
+
+/*/////////////////////////////////////////*/
+
+
+/*////////////PREMIOS/////////////////////*/
+
+.star_bright {
+    position: absolute;
+}
+
+/*/////////////////////////////////////////*/
+
+.status_pendente {
+    color: orange;
+    text-shadow: 0px 1px 1px red;
+}
+
+.status_agendada {
+    color: blueviolet;
+    text-shadow: 0px 1px 1px black;
+}
+
+.status_processamento {
+    color: orange;
+    text-shadow: 0px 1px 1px green;
+}
+
+.status_enviada {
+    color: green;
+    text-shadow: 0px 1px 1px black;
+}
+
+.status_cancelada {
+    color: red;
+    text-shadow: 0px 1px 1px black;
+}
+
+.status_concluida {
+    color: green;
+    text-shadow: 0px 2px 2px rgb(102, 197, 102);
+}
+
+.green_letra {
+    color: green;
+}
+
+.text_pontos_panel {
+    font-size: 80pt;
+    color: goldenrod;
+    text-shadow: 0px 0px 40px black;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.InstaIcon {
+    width: 40px;
+    position: relative;
+    top: 0px;
+}
+
+.Centrowsp {
+    width: 40px;
+    position: relative;
+    top: 5px;
+}
+
+
+.img_premio_favorito {
+    position: absolute;
+    border-radius: 20%;
+    left: 190vh;
+    top: 2vw;
+    width: 100px;
+}
+
+.pontos_suf {
+    box-shadow: 0 0 50px 50px rgba(255, 255, 0, 0.5);
+    animation: brillo-sol 3s infinite;
+    opacity: 40%;
+}
+
+@keyframes brillo-sol {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.5);
+    }
+
+    50% {
+        opacity: 100%;
+        box-shadow: 0 0 50px 50px rgba(255, 255, 0, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.5);
+    }
+}
+
+
+.progress {
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}
+
+.imag_inicio {
+    width: 150px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+}
+
+.toastr {
+    position: relative;
+    top: 200px;
+    /* width: 100% */
+}
+
+.progress .progress-bar {
+    position: absolute;
+    height: 100%;
+    background-color: green;
+    width: 0%;
+    animation: progress-animation-1 7s;
+}
+
+@keyframes progress-animation-1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {}
+}
+
+/* Perfil navegação usuario */
+#boton_1 {
+    background-color: goldenrod;
+    opacity: 90%;
+    font-family: cursive;
+}
+
+#boton_1:hover {
+    background-image: url(/php_store/public/assets/css/images/th.jpg);
+    opacity: 100%;
+}
+
+/*/////////////////////////*/
+
+/* Stars em pontos panel */
+
+#star_1 {
+    animation: rotation_star 4s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+    /*animation-fill-mode: forwards; (se mantem no 100% da animação)*/
+}
+
+#star_1_adquired {
+    animation: star_adquired 2s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+    /*animation-fill-mode: forwards; (se mantem no 100% da animação)*/
+}
+
+/**/
+#star_2 {
+    animation: rotation_star 4s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+}
+
+/**/
+#star_3 {
+    animation: rotation_star 4s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+
+}
+
+/**/
+#star_4 {
+    animation: rotation_star 4s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+
+}
+
+/**/
+#star_5 {
+    animation: rotation_star 4s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+
+}
+
+/**/
+#star_6 {
+    animation: rotation_star 4s infinite;
+    animation-direction: alternate-reverse;
+    scale: 1;
+
+}
+
+
+@keyframes rotation_star {
+    0% {}
+
+    50% {
+        transform: scale(4);
+    }
+
+    100% {
+        transform: scale(1);
+        rotate: 865deg;
+    }
+}
+
+@keyframes star_adquired {
+    0% {
+        transform: translateX(30px) translateY(80px);
+        scale: 5;
+    }
+
+    100% {
+        transform: translateX(0px) translateY(0px);
+        scale: 1;
+        rotate: 3turn;
+    }
+}
+
+/*/////////////////////*/
+
+/*INTRO //////*/
+
+.galeria_1 {
+    position: absolute;
+    left: 47vh;
+    top: 10vw;
+    animation: galery_appear 3s forwards;
+    animation-delay: 6s;
+    opacity: 0%;
+}
+
+.galeria_2 {
+    position: absolute;
+    left: 16vh;
+    top: 23vw;
+    animation: galery_appear 3s forwards;
+    animation-delay: 6.8s;
+    opacity: 0%;
+}
+
+.galeria_3 {
+    position: absolute;
+    left: 51vh;
+    top: 28vw;
+    animation: galery_appear 3s forwards;
+    animation-delay: 7.4s;
+    opacity: 0%;
+}
+
+@keyframes galery_appear {
+    100% {
+        opacity: 100%;
+    }
+}
+
+.foto {
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 20px 10px goldenrod;
+}
+
+.foto_2 {
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 20px 10px goldenrod;
+}
+
+
+.logo_inicio {
+    border-radius: 50%;
+    width: 200px;
+    position: absolute;
+    top: 18vw;
+    left: 86vh;
+    opacity: 100%;
+    animation: logo_inicio 5s 1;
+}
+
+
+@keyframes logo_inicio {
+    0% {
+        transform: scale(2);
+        rotate: 2turn;
+    }
+
+    100% {}
+}
+
+
+#texto_inicio {
+    position: absolute;
+    left: 43vw;
+    top: 42vh;
+    text-shadow: 0px 0px 20px gold;
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50pt;
+    opacity: 0;
+    animation: promo_efect 2s 1s infinite;
+    animation-delay: 5s;
+}
+
+
+#new_client {
+    background-color: goldenrod;
+    opacity: 90%;
+    font-family: cursive;
+
+}
+
+#new_client:hover {
+    background-image: url(/php_store/public/assets/css/images/th.jpg);
+    opacity: 100%;
+}
+
+.criar_cliente {
+    font-size: 20px;
+    opacity: 0%;
+    animation: fade-in 1s 1s alternate-reverse infinite;
+}
+
+.fade_in_effect {
+    opacity: 0%;
+    animation: fade-in 0.8s 0s forwards;
+}
+
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.btn-100 {
+    min-width: 150px !important;
+}
+
+.btn-125 {
+    min-width: 125px !important;
+}
+
+.btn-150 {
+    min-width: 150px !important;
+}
+
+.btn-175 {
+    min-width: 175px !important;
+}
+
+
+
+/* Adaptar a Dispositivos */
+
+@media(max-width: 800px) {
+
+    body {
+        margin-top: 100px;
+        background-image: url(/php_store/public/assets/css/images/fondo.png);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    
+
+    .fade_in_effect {
+        opacity: 0%;
+        animation: fade-in 0.8s 0s forwards;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    input[type="radio"] {
+        transform: scale(1.5);
+        /* Aumenta el tamaño en un 50% */
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+
+    .alert-violeta {
+        background-color: rgb(130, 123, 175);
+        color: black;
+    }
+
+    /*/////////INICIO/////////*/
+    .InstaIcon_cel {
+        width: 40px;
+        position: absolute;
+        top: 100px;
+        left: 12px;
+    }
+    
+    .btn-luciana{
+        background-color: brown;
+        color: white;
+    }
+
+    .Centrowsp_cel {
+        width: 41px;
+        position: absolute;
+        top: 150px;
+        left: 12px;
+    }
+
+    .titulos {
+        font-size: 25pt;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        text-shadow: 2px 2px 40px black;
+    }
+
+    /*Config e header*/
+    .titulo_header {
+        position: absolute;
+        left: 73px;
+        top: 22px;
+        font-size: 22pt;
+        font-family: "edwardian-script", Dancing Script;
+        color: goldenrod;
+        text-shadow: 2px 2px 40px gold;
+
+    }
+
+    .carrinho_cel {
+        position: absolute;
+        top: 28px;
+        left: 85vw;
+    }
+
+    .tam_status {
+        position: absolute;
+        width: 100px;
+        left: 38vw;
+        top: 8vh;
+        opacity: 80%;
+        border-radius: 50%;
+    }
+
+
+    /*////////////////////*/
+
+    /* MENU CEL ////////////////////////*/
+
+    .logo_menu_cel {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .menu_cel {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_cel li {
+        position: absolute;
+        list-style: none;
+        left: 73px;
+        top: 236px;
+        scale: 1.7;
+        transform-origin: 100px;
+        transition: 0.5s;
+        transition-delay: calc(0.1s * var(--i));
+        transform: rotate(0deg) translateX(80px);
+    }
+
+    .menu_cel li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-image: url(/php_store/public/assets/css/images/th.jpg);
+        border-radius: 50%;
+        transform: rotate(calc(360deg / -6 * var(--i)));
+        box-shadow: 0 0px 5px black;
+        color: black;
+        transition: 0.5s;
+    }
+    
+    .menu_cel li p {
+        position: relative;
+        font-family: 'Dancing Script', cursive;
+        top: 6px;
+        text-shadow: 0px 1px 5px black;
+        color: white;
+    }
+
+    .menu_cel li a:hover {
+        color: purple;
+    }
+
+    .menu_cel.active li {
+        transform: rotate(calc(360deg / 6 * var(--i)));
+    }
+
+    .toggle {
+        position: absolute;
+        top: 220px;
+        left: 145px;
+        width: 60px;
+        height: 60px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        border-radius: 50%;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+        transition: transform 1.25s;
+    }
+    
+    #start_init{
+        position: absolute;
+        font-family: 'Dancing Script', cursive;
+        color: goldenrod;
+        text-shadow: 0px 2px 5px black;
+        font-size: 40pt;
+        opacity: 0%;
+        animation-delay: 3s;
+        animation: promo_efect 1s 1s infinite;
+    }
+
+
+    .menu_cel.active .toggle {
+        transform: rotate(360deg) scale(0.7);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .galeria_1 {
+        position: absolute;
+        left: 15px;
+        top: 340px;
+        animation: galery_appear 3s forwards;
+        animation-delay: 6s;
+        opacity: 0%;
+    }
+
+    .galeria_2 {
+        position: absolute;
+        left: 55px;
+        top: 480px;
+        animation: galery_appear 3s forwards;
+        animation-delay: 6.8s;
+        opacity: 0%;
+    }
+
+    .galeria_3 {
+        position: absolute;
+        left: 225px;
+        top: 400px;
+        animation: galery_appear 3s forwards;
+        animation-delay: 7.4s;
+        opacity: 0%;
+    }
+
+    @keyframes galery_appear {
+        100% {
+            opacity: 100%;
+        }
+    }
+
+    .foto {
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0px 0px 20px 10px goldenrod;
+    }
+
+    .foto_2 {
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0px 0px 20px 10px goldenrod;
+    }
+
+    /*///////////////////*/
+
+    /*/////////////////////////////////////////*/
+
+    /* Cestas LOJA */
+
+    .btn-cestas {
+        background-image: url(/php_store/public/assets/css/images/th.jpg);
+        color: black;
+    }
+
+    #cest_button {
+        position: relative;
+    }
+
+    .tam_cesta {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .tam_cesta_center {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .cesta_img_1 {
+        position: relative;
+        left: 0vh;
+        top: 0vw;
+    }
+
+    .cesta_img_3 {
+        position: relative;
+        left: 0vh;
+        top: 0vw;
+    }
+
+    .cesta_img_4 {
+        position: relative;
+        left: 0vh;
+        top: 0vw;
+    }
+
+    .cesta_img_5 {
+        position: relative;
+        left: 0vh;
+        top: 0vw;
+    }
+
+    .cesta_img_center {
+        position: relative;
+        left: 0vh;
+        top: 0vw;
+        opacity: 50%;
+        animation: promo_efect 1s 1s infinite;
+    }
+
+    .text_cestas {
+        position: relative;
+        left: 0vh;
+        top: 0vw;
+        font-size: 25pt;
+        text-shadow: 0px 1px 10px black;
+    }
+
+
+
+    /* ///////////////////////cestas loja///////////////////////// */
+
+    .navegacao {
+        background-color: black;
+        color: black;
+    }
+
+    .rodape {
+        background-color: black;
+        color: white;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        color: white;
+        margin: 0px 10px;
+    }
+
+    .nav-item:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .espaco_fundo {
+        margin-bottom: 80px;
+    }
+
+    .logo {
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .textos a {
+        text-decoration: none;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .letra {
+        font-style: oblique;
+    }
+
+    .gold_text {
+        color: white;
+        text-shadow: 0px 2px 40px black;
+    }
+
+
+    /*Config e header*/
+
+    /*//////////////////LOJA//////////////*/
+
+    .box-produto {
+        border: 3px double white;
+        border-radius: 10%;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    .box-premio {
+        border: 3px double goldenrod;
+        border-radius: 10px;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    .produto_nome {
+        color: white;
+        text-shadow: 0px 2px 2px black;
+        font-size: 15pt;
+        position: relative;
+    }
+
+    .produto_preco {
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+    }
+
+    .produto_descricao {
+        color: white;
+        text-shadow: 0px 2px 2px black;
+    }
+
+    .produto_pontos {
+        color: goldenrod;
+        text-shadow: 2px 2px 20px black;
+    }
+
+    .produto_imag {
+        min-width: 50px;
+        min-height: 200px;
+        max-width: 100px;
+        max-height: 200px;
+    }
+
+    .produto_imag_det {
+        margin-top: 50px;
+        padding: 0px;
+        min-width: 100px;
+        min-height: 300px;
+        max-width: 150px;
+        max-height: 350px;
+    }
+
+
+    .premio_imag {
+        min-width: 250px;
+        min-height: 200px;
+        max-width: 250px;
+        max-height: 200px;
+    }
+
+    .premio_ID {
+        min-width: 270px;
+        min-height: 220px;
+        max-width: 270px;
+        max-height: 220px;
+    }
+
+    /*/////////loja////////*/
+
+    /*/////////MENU PERFIL////////////*/
+    #scroll-icon-down {
+        position: fixed;
+        color: white;
+        bottom: 30px;
+        right: 20px;
+        z-index: 1000;
+        animation: pulse 1s infinite;
+    }
+
+    #scroll-icon-up {
+        position: fixed;
+        color: white;
+        bottom: 30px;
+        right: 20px;
+        z-index: 1000;
+        animation: pulse 1s infinite;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.2);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .panel_intereses {
+        position: relative;
+        background-image: url(/php_store/public/assets/css/images/backlog.jpg);
+        border: 2px outset goldenrod;
+        left: 0px;
+        opacity: 50%;
+        animation: promo_efect 1s 1s infinite;
+    }
+
+    @keyframes promo_efect {
+
+        50% {
+            opacity: 100%;
+        }
+
+        100% {
+            opacity: 50%;
+        }
+    }
+
+    .animated_number {
+        font: 800 40px system-ui;
+    }
+
+    .texto_pontos {
+        color: goldenrod;
+        text-shadow: 0px 2px 2px black;
+    }
+
+    /*/////////MENU PERFIL////////////*/
+
+    /*/////////////ADMIN///////////////*/
+    .opc_admin {
+        background-image: url(/php_store/public/assets/css/images/back_menu.jpg);
+        text-align: center;
+        border-radius: 10%;
+    }
+
+    .opc_admin:hover {
+        text-shadow: 2px 2px 20px white;
+    }
+
+    /*/////////////ADMIN///////////////*/
+
+    img {
+        filter: brightness(1.2) saturate(1.2);
+        transition: all 0.3s ease-in-out;
+    }
+
+    img:hover {
+        filter: brightness(1.4) saturate(1.4);
+    }
+
+
+    /*////////////PREMIOS/////////////////////*/
+
+    .star_bright {
+        position: absolute;
+    }
+
+    /*/////////////////////////////////////////*/
+
+    .status_pendente {
+        color: orange;
+        text-shadow: 0px 1px 1px red;
+    }
+
+    .status_agendada {
+        color: blueviolet;
+        text-shadow: 0px 1px 1px black;
+    }
+
+    .status_processamento {
+        color: orange;
+        text-shadow: 0px 1px 1px green;
+    }
+
+    .status_enviada {
+        color: green;
+        text-shadow: 0px 1px 1px black;
+    }
+
+    .status_cancelada {
+        color: red;
+        text-shadow: 0px 1px 1px black;
+    }
+
+    .status_concluida {
+        color: green;
+        text-shadow: 0px 2px 2px rgb(102, 197, 102);
+    }
+
+    .green_letra {
+        color: green;
+    }
+
+    .text_pontos_panel {
+        font-size: 80pt;
+        color: goldenrod;
+        text-shadow: 0px 0px 40px black;
+        position: relative;
+        top: 20px;
+    }
+
+    .InstaIcon {
+        width: 40px;
+        position: relative;
+        top: 0px;
+    }
+
+    .Centrowsp {
+        width: 40px;
+        position: relative;
+        top: 5px;
+    }
+
+    .Jurerewsp {
+        width: 40px;
+        position: relative;
+        top: 5px;
+    }
+
+    .fondo-inicio {
+        width: 1241px;
+        height: 490px;
+    }
+
+    .img_premio_favorito {
+        position: relative;
+        top: 35px;
+        left: -20px;
+        border-radius: 20%;
+        width: 45px;
+    }
+
+    .pontos_suf {
+        box-shadow: 0 0 50px 50px rgba(255, 255, 0, 0.5);
+        animation: brillo-sol 3s infinite;
+        opacity: 40%;
+    }
+
+    @keyframes brillo-sol {
+        0% {
+            box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.5);
+        }
+
+        50% {
+            opacity: 100%;
+            box-shadow: 0 0 50px 50px rgba(255, 255, 0, 0.5);
+        }
+
+        100% {
+            box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.5);
+        }
+    }
+
+
+    .progress {
+        height: 15px;
+        background-color: #777;
+        position: relative;
+    }
+
+    .imag_inicio {
+        width: 150px;
+        border: 3px solid goldenrod;
+        border-radius: 10px;
+    }
+
+    .toastr {
+        position: relative;
+        top: 200px;
+        /* width: 100% */
+    }
+
+    .progress .progress-bar {
+        position: absolute;
+        height: 100%;
+        background-color: green;
+        width: 0%;
+        animation: progress-animation-1 7s;
+    }
+
+    @keyframes progress-animation-1 {
+        0% {
+            width: 0%;
+        }
+
+        100% {}
+    }
+
+    /* Perfil navegação usuario */
+    #boton_1 {
+        background-color: goldenrod;
+        opacity: 90%;
+        font-family: cursive;
+    }
+
+    #boton_1:hover {
+        background-image: url(/php_store/public/assets/css/images/th.jpg);
+        opacity: 100%;
+    }
+
+    /*/////////////////////////*/
+
+    /* Stars em pontos panel */
+
+    #star_1 {
+        animation: rotation_star 4s infinite;
+        animation-direction: alternate-reverse;
+        scale: 1;
+        /*animation-fill-mode: forwards; (se mantem no 100% da animação)*/
+    }
+
+    /**/
+    #star_2 {
+        animation: rotation_star 4s infinite;
+        animation-direction: alternate-reverse;
+        scale: 1;
+    }
+
+    /**/
+    #star_3 {
+        animation: rotation_star 4s infinite;
+        animation-direction: alternate-reverse;
+        scale: 1;
+
+    }
+
+    /**/
+    #star_4 {
+        animation: rotation_star 4s infinite;
+        animation-direction: alternate-reverse;
+        scale: 1;
+
+    }
+
+    /**/
+    #star_5 {
+        animation: rotation_star 4s infinite;
+        animation-direction: alternate-reverse;
+        scale: 1;
+
+    }
+
+    /**/
+    #star_6 {
+        animation: rotation_star 4s infinite;
+        animation-direction: alternate-reverse;
+        scale: 1;
+
+    }
+
+
+    @keyframes rotation_star {
+        0% {}
+
+        50% {
+            transform: scale(2);
+        }
+
+        100% {
+            transform: scale(1);
+            rotate: 865deg;
+        }
+    }
+
+    @keyframes star_adquired {
+        0% {
+            transform: translateX(30px) translateY(80px);
+            scale: 5;
+        }
+
+        100% {
+            transform: translateX(0px) translateY(0px);
+            scale: 1;
+            rotate: 3turn;
+        }
+    }
+
+    /*/////////////////////*/
+
+
+
+    #new_client {
+        background-color: goldenrod;
+        opacity: 90%;
+        font-family: cursive;
+
+    }
+
+    #new_client:hover {
+        background-image: url(/php_store/public/assets/css/images/th.jpg);
+        opacity: 100%;
+    }
+
+    .criar_cliente {
+        font-size: 20px;
+        opacity: 0%;
+        animation: fade-in 1s 1s alternate-reverse infinite;
+    }
+
+    @keyframes fade-in {
+        100% {
+            opacity: 1;
+            filter: blur(0);
+        }
+    }
+
+    .btn-100 {
+        min-width: 150px !important;
+    }
+
+    .btn-125 {
+        min-width: 125px !important;
+    }
+
+    .btn-150 {
+        min-width: 150px !important;
+    }
+
+    .btn-175 {
+        min-width: 175px !important;
+    }
+
+
+    #wrapper {
+        width: 400px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      #content1, #content2 {
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: transform 0.5s ease;
+      }
+      
+      #content2 {
+        transform: translateX(100%);
+      }
+      
+      #radio1:checked ~ #content1 {
+        transform: translateX(0);
+      }
+      
+      #radio2:checked ~ #content2 {
+        transform: translateX(0);
+      }
+
+
+}
