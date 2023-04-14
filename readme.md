@@ -16,5 +16,3 @@
 #admin panel
 #saleman panel
 
-Link for test in realtime:
-www.llicorellapriorato.store
